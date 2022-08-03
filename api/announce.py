@@ -7,7 +7,7 @@ class handler(BaseHTTPRequestHandler):
         self.send_response(200)
         self.send_header('Content-type','text/plain')
         self.end_headers()
-        # message = cow.Cowacter().milk('Nuxt and Python together at last')
-        message = "Simple message test again"
+        message = cow.Cowacter().milk('Nuxt and Python work with a Pipfile')
+        # message = "Simple message test again"
         self.wfile.write(message.encode())
         return
