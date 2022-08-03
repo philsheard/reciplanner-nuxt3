@@ -1,5 +1,5 @@
 from http.server import BaseHTTPRequestHandler
-# from cowpy import cow
+from cowpy import cow
 
 class handler(BaseHTTPRequestHandler):
 
